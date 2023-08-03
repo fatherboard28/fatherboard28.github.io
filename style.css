@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Hack;
+    src: url("Fonts/HackNerdFont-Bold.ttf");
+}
+
+.inline{
+    display:inline-block;
+}
+
+#HeaderDiv {
+    background-color: #2e2e2e;
+    text-align: center;
+    position:absolute;
+    width: 100%;
+    height: 10%;
+    top:0;
+    left:0;
+}
+
+#HeaderDiv h1 {
+    line-height: 10%;
+    vertical-align: baseline;
+    font-family: Hack;
+    font-size: 56px; 
+}
+
+#HeaderDiv button {
+    vertical-align: center;
+    right: 2%;
+}
+
