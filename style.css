@@ -73,7 +73,7 @@ h1 {
 #TitleHeaderDiv {
     float: left;
     padding-left: 20px;
-    width: 75%;
+    width: calc(80% - 20px);
     height: 100%;
     display: flex;
     justify-content: left;
