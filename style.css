@@ -14,33 +14,40 @@ body {
     margin:0;
 }
 
+h1 {
+    font-family: Hack;
+    color: var(--white);
+    font-size: 24px;
+}
+
 
 .scrollContainer {
     overflow: hidden;
-    padding-top: 20px;
+    padding: 20px;
 }
 
 #PreviewProjContainer {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 340px);
-    grid-gap: 20px;
-    box-sizing: border-box;
-    width: 100%;
-    height: 900px;
-    overflow: auto;
-    position: relative;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
+
 #PreviewProjItem {
     background: linear-gradient(180deg, var(--background) 0%, var(--lightBackground) 90%, var(--background) 100%);;
     height: 400px;
+    flex: 1 0 340px;
+    box-sizing:content-box;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 #PreviewProjItem button {
     font-family: Hack;
     font-size: 16px;
     width: 100%;
+    height: 24px;
     background: none;
     border: none;
     color: var(--white);
@@ -50,8 +57,6 @@ body {
 #PreviewProjItem img {
     width: 300px;
     height: 300px;
-    padding-left: 20px;
-    padding-top: 10px;
 }
 #HeaderDiv {
     background-color: var(--background);
@@ -66,20 +71,18 @@ body {
 
 
 #TitleHeaderDiv {
-    padding-left: 20%;
     float: left;
-    width: 60%;
+    padding-left: 20px;
+    width: 75%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
 #TitleHeaderDiv h1 {
     font-family: Hack;
     font-size: 32px;
-    width: 100%;
-    margin: 0px;
     color: var(--white);
 }
 
@@ -88,7 +91,7 @@ body {
     width: 20%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
 }
 
