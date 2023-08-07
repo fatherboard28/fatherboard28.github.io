@@ -32,6 +32,9 @@ p {
     color: var(--white);
     font-size: 16px;
 }
+input:hover{
+    color: var(--accent) !important;
+}
 
 #sideScroll {
     display: flex;
@@ -171,6 +174,30 @@ p {
 .aboutTxt {
     display: flex;
     align-content: start;
+}
+
+#Icons {
+    display: flex;
+    float:left;
+    margin-left: 10px;
+}
+
+#Icons div{
+    width: 2.5rem;
+    padding-right: 10px;
+}
+#Icons div a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#Icons div a img {
+    width: 100%;
+    filter: invert(98%);
+}
+#Icons div a img:hover {
+    filter: invert(1) brightness(50%) sepia(100%) saturate(210%) hue-rotate(50deg);
 }
 
 
