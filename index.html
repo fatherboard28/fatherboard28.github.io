@@ -12,8 +12,18 @@
                     <h1>Jonathan Cunningham</h1>
                 </div>
                 <div id="ButtonHeaderDiv">
-                    <button>Projects</button>
-                    <button>About</button>
+                    <input type="submit" onClick="projects()" value="Projects" class="button"/>
+                    <script>
+                        function projects() {
+                            window.location.href = "index.html";
+                        }
+                    </script>
+                    <input type="submit" onClick="about()" value="About" class="button"/>
+                    <script>
+                        function about() {
+                            window.location.href = "about.html";
+                        }
+                    </script>
                 </div>
             </div>
         </header>
@@ -24,9 +34,9 @@
             <div class="grid-container" id="PreviewProjContainer">
 
                 <div class="grid-item" id="PreviewProjItem">
-                    <input type="submit" onClick="test()" value="Board Game Dev Tool" class="button"/>
+                    <input type="submit" onClick="BGDT()" value="Board Game Dev Tool" class="button"/>
                     <script>
-                        function test() {
+                        function BGDT() {
                             window.location.href = "ProjectPages/BoardGameDevTool.html";
                         }
                     </script>
@@ -34,12 +44,22 @@
                 </div>
 
                 <div class="grid-item" id="PreviewProjItem">
-                    <button>Motion Capture Tech Demo</button>
+                    <input type="submit" onClick="MCD()" value="Motion Capture Tech Demo" class="button"/>
+                    <script>
+                        function MCD() {
+                            window.location.href = "ProjectPages/MotionCaptureDemo.html";
+                        }
+                    </script>
                     <img src="Media/Screenshot 2023-07-13 154354.png">
                 </div>
 
                 <div class="grid-item" id="PreviewProjItem">
-                    <button>Fishing Arcade Game</button>
+                    <input type="submit" onClick="fish()" value="Fishing Arcade Game" class="button"/>
+                    <script>
+                        function fish() {
+                            window.location.href = "ProjectPages/FishingGame.html";
+                        }
+                    </script>
                     <img src="Media/fishing_game.png">
                 </div>
 

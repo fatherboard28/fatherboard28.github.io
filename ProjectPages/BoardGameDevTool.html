@@ -11,8 +11,18 @@
                     <h1>Jonathan Cunningham</h1>
                 </div>
                 <div id="ButtonHeaderDiv">
-                    <button>Projects</button>
-                    <button>About</button>
+                    <input type="submit" onClick="projects()" value="Projects" class="button"/>
+                    <script>
+                        function projects() {
+                            window.location.href = "../index.html";
+                        }
+                    </script>
+                    <input type="submit" onClick="about()" value="About" class="button"/>
+                    <script>
+                        function about() {
+                            window.location.href = "../about.html";
+                        }
+                    </script>
                 </div>
             </div>
         </header>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <div id="HeaderDiv">
+                <div id="TitleHeaderDiv">
+                    <h1>Jonathan Cunningham</h1>
+                </div>
+                <div id="ButtonHeaderDiv">
+                    <input type="submit" onClick="projects()" value="Projects" class="button"/>
+                    <script>
+                        function projects() {
+                            window.location.href = "index.html";
+                        }
+                    </script>
+                    <input type="submit" onClick="about()" value="About" class="button"/>
+                    <script>
+                        function about() {
+                            window.location.href = "about.html";
+                        }
+                    </script>
+                </div>
+            </div>
+        </header>
+
+        <div style="padding:20px">
+            <h1>About Me</h1>
+            <div style="display:flex">
+                <img class="aboutImg" src="Media/picOfMe.jpg">
+                <div style="padding-left: 10px">
+                    <p class="aboutTxt">My name is Jonathan Cunningham. I am currently attending Southwest Baptist University as a senior. I am studying computer science and mathematics. I found my love for coding and problem solving through game development. I started when I was a freshman in highschool and have been programming ever since.</p>
+                    <p class="aboutTxt">The thing that motivates most of my projects is essentially the cool factor. I learn new things and spend countless hours on projects because I think the project would be cool and fun to do. I also love a good challenge. I love complex, hard problems that I can spend many hours trying to solve. I see myself as a professional problem solver at the end of the day. I prefer to solve problems in a game dev context but any problem solving is very enjoyable to me.</p>        
+                    <p class="aboutTxt">I have a massive grave yard of dead projects that will never see the light of day, as many developers do. However I have archived a few projects here that I feel have been completed enough to show off! You can go check those out in the projects page. </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

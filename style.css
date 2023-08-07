@@ -152,7 +152,7 @@ p {
     align-items: center;
 }
 
-#ButtonHeaderDiv button {
+#ButtonHeaderDiv input {
     border: 0px;
     font-family: Hack;
     font-size: 16px;
@@ -161,6 +161,16 @@ p {
     background-color: var(--background);
     border-color: var(--background);
     color: var(--white);
+}
+
+.aboutImg {
+    height: 500px;
+    width: 500px;
+    display: inline;
+}
+.aboutTxt {
+    display: flex;
+    align-content: start;
 }
 
 
